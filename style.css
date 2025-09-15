@@ -2,3 +2,8 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
 }
+
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
