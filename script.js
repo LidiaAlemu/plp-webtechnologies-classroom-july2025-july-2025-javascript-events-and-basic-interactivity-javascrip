@@ -17,3 +17,11 @@ document.getElementById("resetBtn").addEventListener("click", () => {
   count = 0;
   counter.textContent = count;
 });
+
+// ❓ Collapsible FAQ
+const questions = document.querySelectorAll(".question");
+questions.forEach(q => {
+  q.addEventListener("click", () => {
+    q.nextElementSibling.classList.toggle("show");
+  });
+});
