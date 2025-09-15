@@ -12,3 +12,12 @@ body {
     color: red;
     font-size: 0.8em;
 }
+
+.answer {
+    display: none;
+}
+
+.answer.show {
+    display: block;
+    margin: 5px 0;
+}
